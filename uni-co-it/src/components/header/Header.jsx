@@ -9,7 +9,7 @@ import Link from 'next/link';
 const Header = () => {
     return (
         <div className='custom-bg'>
-          <div className="navbar flex justify-between mx-2  sm:mx-auto items-center   sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 " >
+          <div className="navbar  flex justify-between mx-2  sm:mx-auto items-center   sticky  top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 " >
         <div className=" navbar-start max-w-6xl">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">

@@ -6,9 +6,9 @@ export default function Loading() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      // After 2 seconds, hide the loading component
+      // After 2 seconds, hide the loading component from the DOM
       setIsLoading(false);
-    }, 2000); // 2000 milliseconds = 2 seconds
+    }, 2000); // 2000 milliseconds = 2 seconds = 2 seconds
 
     return () => {
       clearTimeout(timer); // Clear the timer if the component unmounts before 2 seconds

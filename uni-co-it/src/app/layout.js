@@ -4,6 +4,7 @@ import "./globals.css";
 import Slider from "@/components/slider/Slider";
 import CardComponents from "@/components/card/CardComponents";
 import Footer from "@/components/footer/Footer";
+import Project from "@/components/project/Project";
 
 export const metadata = {
   title: "Unico It Ltd",
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       {/*slider*/}
       <Slider></Slider>
       <CardComponents></CardComponents>
+      <Project></Project>
 
         {children}
         <Footer></Footer>
