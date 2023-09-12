@@ -33,7 +33,7 @@ const Header = () => {
             <li><Link href="/service">Service</Link></li>
             <li><Link href="/Product">Product</Link></li>
             <li><Link href="/contact">Contact</Link></li>
-            <li><Link href="/blog">Blog</Link></li>
+            <li><Link href="/about">Blog</Link></li>
            
           </ul>
           <button className="font-semibold rounded-full px-6 py-3 bg-[#3FBFEB]">HIRE US</button>
