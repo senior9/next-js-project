@@ -1,0 +1,22 @@
+.custom-bg{
+    background-image: url(../../../public/slider.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+/* Media query for tablets (e.g., iPad) */
+@media (max-width: 768px) {
+    .custom-bg {
+        background-image: none
+        
+    }
+}
+
+/* Media query for mobile devices (e.g., smartphones) */
+@media (max-width: 576px) {
+    .custom-bg {
+        background-image: none
+        
+        /* Replace with the path to your mobile background image */
+    }
+}
